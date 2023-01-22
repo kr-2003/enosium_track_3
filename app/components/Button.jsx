@@ -1,19 +1,21 @@
 import React from "react";
 
-function Button() {
+function Button(props) {
+  let bg = `bg-[` + props.color + `] `;
+  let className =
+    bg +
+    "shadow-md inline-flex items-center rounded-full border border-[#0d9488]  px-8 py-3 text-white hover:scale-110 focus:outline-none focus:ring active:text-[#0d9488]";
   return (
     <div>
-      <a
-        className="bg-gradient-to-r from-cyan-400 to-teal-400 shadow-md inline-flex items-center rounded-full border border-[#0d9488]  px-8 py-3 text-white hover:scale-110 focus:outline-none focus:ring active:text-[#0d9488]"
-      >
-        <span className="text-md font-medium"> Check your loan eligibility </span>
+      <a className={className}>
+        <span className="text-md font-medium text-black">{props.name} </span>
 
         <svg
           className="ml-3 h-5 w-5"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          stroke="currentColor"
+          stroke="black"
         >
           <path
             strokeLinecap="round"

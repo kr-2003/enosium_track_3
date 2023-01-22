@@ -1,1 +1,0 @@
-{"id":"1e6ea22c-e4d4-4cb9-8e09-58a87f6d6bea","space":48302,"runtime":"python3.9","name":"server","path":"3jemp5","project":"d0sjh1t9","account":"144798365827","region":"ap-south-1","deps":["scikit-learn","fastapi","uvicorn"],"envs":null,"public":true,"log_level":"debug","cron":""}

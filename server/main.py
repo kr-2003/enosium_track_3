@@ -9,9 +9,9 @@ origins = [
     "http://localhost:3000",
     "http://localhost:8000",
     "https://enosium-track-1-rays-avc169qno-kr-2003.vercel.app",
-    "https://enosium-track-1-rays.vercel.app/",
-    "https://enosium-track-1-rays-git-main-kr-2003.vercel.app/",
-    "https://enosium-track-1-rays-kr-2003.vercel.app/",
+    "https://enosium-track-1-rays.vercel.app",
+    "https://enosium-track-1-rays-git-main-kr-2003.vercel.app",
+    "https://enosium-track-1-rays-kr-2003.vercel.app",
     
 ]
 app.add_middleware(

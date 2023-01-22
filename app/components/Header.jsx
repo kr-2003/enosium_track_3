@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 
 const style={
-  backgroundColor: '#133a3e'
+  backgroundColor: '#280b57'
 }
 
 function Header() {
